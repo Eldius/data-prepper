@@ -1,0 +1,1475 @@
+repo_name: Eldius/data-prepper
+report_id: bf8d0687c39b61fa2679ac03a5ef69f2
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-31T21:10:21+00:00'
+requested_by: dlvenable
+provider: github
+branch: main
+detected_tools_count: 102
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/mapdb-processor-state/build.gradle
+  detection_source: data-prepper-plugins/mapdb-processor-state/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 18:32:42.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/adot/docker-compose.yml
+  detection_source: examples/adot/docker-compose.yml
+  last_updated_by: Kowshik Nagarajaan
+  last_updated_on: 2020-11-06 01:17:10.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/data-prepper-emf-monitoring/docker-compose.yml
+  detection_source: examples/dev/data-prepper-emf-monitoring/docker-compose.yml
+  last_updated_by: Qi Chen
+  last_updated_on: 2022-05-20 14:46:52.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/adot/docker-compose.yml
+  detection_source: examples/adot/docker-compose.yml
+  last_updated_by: Kowshik Nagarajaan
+  last_updated_on: 2020-11-06 01:17:10.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.19.6
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/requirements.txt
+  detection_source: build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-12-19 18:14:22.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/analytics-service/build.gradle
+  detection_source: examples/trace-analytics-sample-app/sample-app/analytics-service/build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-08-25 15:03:44.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/trace-analytics-sample-app/docker-compose.yml
+  detection_source: examples/dev/trace-analytics-sample-app/docker-compose.yml
+  last_updated_by: Jeff Wright
+  last_updated_on: 2020-12-21 20:48:38.000000000 Z
+- name: MapD
+  description: Open source GPU-Powered Database
+  website_url: https://www.mapd.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6915/preview.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/mapdb-processor-state/build.gradle
+  detection_source: data-prepper-plugins/mapdb-processor-state/build.gradle
+  last_updated_by: Taghavi
+  last_updated_on: 2020-10-08 17:48:13.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/trace-analytics-sample-app/docker-compose.yml
+  detection_source: examples/dev/trace-analytics-sample-app/docker-compose.yml
+  last_updated_by: Jeff Wright
+  last_updated_on: 2020-12-21 20:48:38.000000000 Z
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/data-prepper-emf-monitoring/docker-compose.yml
+  detection_source: examples/dev/data-prepper-emf-monitoring/docker-compose.yml
+  last_updated_by: Qi Chen
+  last_updated_on: 2022-05-20 14:46:52.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/.github/codecov.yml
+  detection_source: ".github/codecov.yml"
+  last_updated_by: Qi Chen
+  last_updated_on: 2021-11-09 20:45:42.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/.github/workflows/add-untriaged.yml
+  detection_source: ".github/workflows/add-untriaged.yml"
+  last_updated_by: Daniel (dB.) Doubrovkine
+  last_updated_on: 2023-02-15 19:15:53.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/build-resources.gradle
+  detection_source: build-resources.gradle
+  last_updated_by: qchea
+  last_updated_on: 2021-04-19 16:14:15.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/trace-analytics-sample-app/docker-compose.yml
+  detection_source: examples/dev/trace-analytics-sample-app/docker-compose.yml
+  last_updated_by: Jeff Wright
+  last_updated_on: 2020-12-22 16:34:19.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/data-prepper-emf-monitoring/docker-compose.yml
+  detection_source: examples/dev/data-prepper-emf-monitoring/docker-compose.yml
+  last_updated_by: Qi Chen
+  last_updated_on: 2022-05-20 14:46:52.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/trace-analytics-sample-app/docker-compose.yml
+  detection_source: examples/dev/trace-analytics-sample-app/docker-compose.yml
+  last_updated_by: Jeff Wright
+  last_updated_on: 2020-12-22 16:34:19.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: Zipkin
+  description: A distributed tracing system
+  website_url: https://zipkin.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2494/8leuukuhknbc8fj0eg42_400x400.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/zipkin-sleuth-webmvc-example/docker-compose.yml
+  detection_source: examples/zipkin-sleuth-webmvc-example/docker-compose.yml
+  last_updated_by: qchea
+  last_updated_on: 2020-10-21 19:49:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/analytics-service/src/main/resources/application.properties
+  detection_source: examples/trace-analytics-sample-app/sample-app/analytics-service/src/main/resources/application.properties
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-01-20 03:42:01.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: Shivani Shukla
+  last_updated_on: 2021-11-04 16:41:17.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/docker-compose.yml
+  detection_source: release/smoke-tests/docker-compose.yml
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: ANTLR
+  description: Posts by Terence Parr, The ANTLR guy, about ANTLR, StringTemplate,
+    parsing, and general computer language cruft.
+  website_url: http://www.antlr.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/dev/dns/Dockerfile
+  detection_source: examples/dev/dns/Dockerfile
+  last_updated_by: Jeff Wright
+  last_updated_on: 2020-12-21 20:48:38.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/adot/docker-compose.yml
+  detection_source: examples/adot/docker-compose.yml
+  last_updated_by: Kowshik Nagarajaan
+  last_updated_on: 2020-11-06 01:17:10.000000000 Z
+- name: OpenSearch
+  description: AWS fork of Elasticsearch and Kibana
+  website_url: https://github.com/opensearch-project/OpenSearch
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/25438/default_711916b807811944908e9bd50db8c46630e25492.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/log-ingestion/docker-compose.yaml
+  detection_source: examples/log-ingestion/docker-compose.yaml
+  last_updated_by: Christopher Manning
+  last_updated_on: 2021-12-02 15:08:14.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Eldius/data-prepper
+  detection_source: Repo Metadata
+- name: com.linecorp.armeria:armeria
+  description: Asynchronous HTTP/2 RPC/REST client/server library built on top of
+    Java 8
+  version: 1.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/otel-logs-source/build.gradle
+  detection_source: data-prepper-plugins/otel-logs-source/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2023-02-09 19:49:11.000000000 Z
+  vulnerabilities:
+  - name: Paths contain matrix variables bypass decorators
+    cve_id: CVE-2023-38493
+    cve_url: https://github.com/advisories/GHSA-wvp2-9ppw-337j
+    detected_date: Jul 26
+    severity: high
+    first_patched: 1.24.3
+- name: org.apache.commons:commons-compress
+  description: Apache Commons Compress software defines an API for working with compression
+    and archive formats
+  version: '1.21'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/s3-source/build.gradle
+  detection_source: data-prepper-plugins/s3-source/build.gradle
+  last_updated_by: Ashok Telukuntla
+  last_updated_on: 2023-03-30 21:13:54.000000000 Z
+  vulnerabilities:
+  - name: 'Apache Commons Compress: Denial of service caused by an infinite loop for
+      a corrupted DUMP file'
+    cve_id: CVE-2024-25710
+    cve_url: https://github.com/advisories/GHSA-4g9r-vxhx-9pgx
+    detected_date: Feb 29
+    severity: high
+    first_patched: 1.26.0
+  - name: 'Apache Commons Compress: OutOfMemoryError unpacking broken Pack200 file'
+    cve_id: CVE-2024-26308
+    cve_url: https://github.com/advisories/GHSA-4265-ccf5-phj5
+    detected_date: Feb 21
+    severity: high
+    first_patched: 1.26.0
+- name: org.xerial.snappy:snappy-java
+  description: 'Snappy-java: A fast compression/decompression library'
+  version: 1.1.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/s3-source/build.gradle
+  detection_source: data-prepper-plugins/s3-source/build.gradle
+  last_updated_by: Ashok Telukuntla
+  last_updated_on: 2023-03-30 21:13:54.000000000 Z
+  vulnerabilities:
+  - name: snappy-java's missing upper bound check on chunk length can lead to Denial
+      of Service (DoS) impact
+    cve_id: CVE-2023-43642
+    cve_url: https://github.com/advisories/GHSA-55g7-9cwv-5qfv
+    detected_date: Sep 26
+    severity: high
+    first_patched: 1.1.10.4
+  - name: snappy-java's unchecked chunk length leads to DoS
+    cve_id: CVE-2023-34455
+    cve_url: https://github.com/advisories/GHSA-qcwq-55hx-v3vh
+    detected_date: Jun 16
+    severity: high
+    first_patched: 1.1.10.1
+  - name: snappy-java's Integer Overflow vulnerability in shuffle leads to DoS
+    cve_id: CVE-2023-34453
+    cve_url: https://github.com/advisories/GHSA-pqr6-cmr2-h8hf
+    detected_date: Jun 16
+    severity: moderate
+    first_patched: 1.1.10.1
+  - name: snappy-java's Integer Overflow vulnerability in compress leads to DoS
+    cve_id: CVE-2023-34454
+    cve_url: https://github.com/advisories/GHSA-fjpj-2g6w-x25r
+    detected_date: Jun 16
+    severity: moderate
+    first_patched: 1.1.10.1
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  version: '1.70'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/common/build.gradle
+  detection_source: data-prepper-plugins/common/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-06-08 22:06:46.000000000 Z
+  vulnerabilities:
+  - name: Bouncy Castle crafted signature and public key can be used to trigger an
+      infinite loop
+    cve_id: CVE-2024-30172
+    cve_url: https://github.com/advisories/GHSA-m44j-cfrm-g8qc
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+  - name: Bouncy Castle Denial of Service (DoS)
+    cve_id: CVE-2023-33202
+    cve_url: https://github.com/advisories/GHSA-wjxj-5m7g-mg7q
+    detected_date: Mar 15
+    severity: moderate
+    first_patched: '1.73'
+  - name: Bouncy Castle For Java LDAP injection vulnerability
+    cve_id: CVE-2023-33201
+    cve_url: https://github.com/advisories/GHSA-hr8g-6v94-x4m9
+    detected_date: Sep 6
+    severity: moderate
+    first_patched:
+  - name: Bouncy Castle certificate parsing issues cause high CPU usage during parameter
+      evaluation.
+    cve_id: CVE-2024-29857
+    cve_url: https://github.com/advisories/GHSA-8xfc-gm6g-vgpv
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+  - name: Bouncy Castle affected by timing side-channel for RSA key exchange ("The
+      Marvin Attack")
+    cve_id: CVE-2024-30171
+    cve_url: https://github.com/advisories/GHSA-v435-xc8x-wvr9
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/failures-common/build.gradle
+  detection_source: data-prepper-plugins/failures-common/build.gradle
+  last_updated_by: Christopher Manning
+  last_updated_on: 2023-04-04 14:32:18.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-27 22:47:36.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-csv
+  description: Support for reading and writing CSV-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/csv-processor/build.gradle
+  detection_source: data-prepper-plugins/csv-processor/build.gradle
+  last_updated_by: Finn
+  last_updated_on: 2022-08-26 20:11:58.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-27 22:47:36.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+  description: Add-on module for Jackson
+  version: 2.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-27 22:47:36.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-27 22:47:36.000000000 Z
+- name: com.github.tomakehurst:wiremock
+  description: A web service test double for all occasions
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/s3-source/build.gradle
+  detection_source: data-prepper-plugins/s3-source/build.gradle
+  last_updated_by: Uday Chintala
+  last_updated_on: 2023-04-06 19:04:44.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-12-19 18:14:22.000000000 Z
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-12-19 18:14:22.000000000 Z
+- name: com.google.protobuf:protobuf-java-util
+  description: Protocol Buffers are a way of encoding structured data in an efficient
+    yet extensible format
+  version: 3.19.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/otel-logs-source/build.gradle
+  detection_source: data-prepper-plugins/otel-logs-source/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2023-02-09 19:49:11.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/otel-logs-source/build.gradle
+  detection_source: data-prepper-plugins/otel-logs-source/build.gradle
+  last_updated_by: kmssap
+  last_updated_on: 2023-01-28 15:21:54.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: kmssap
+  last_updated_on: 2022-11-04 15:58:14.000000000 Z
+- name: commons-validator:commons-validator
+  description: Apache Commons Validator provides the building blocks for both client
+    side validation and server side data validation
+  version: '1.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-30 16:29:58.000000000 Z
+- name: io.micrometer:micrometer-core
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-06-09 16:16:12.000000000 Z
+- name: io.micrometer:micrometer-registry-prometheus
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2021-09-14 21:04:38.000000000 Z
+- name: javax.inject:javax.inject
+  description: The javax.inject API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-11-10 15:50:03.000000000 Z
+- name: javax.ws.rs:javax.ws.rs-api
+  version: 2.1.1
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-11-10 15:50:03.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  version: 2.3.1
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/archives/build.gradle
+  detection_source: release/archives/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-08-11 20:14:55.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: 2.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/rss-source/build.gradle
+  detection_source: data-prepper-plugins/rss-source/build.gradle
+  last_updated_by: Shivani Shukla
+  last_updated_on: 2022-12-07 18:44:37.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/mapdb-processor-state/build.gradle
+  detection_source: data-prepper-plugins/mapdb-processor-state/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-28 18:56:56.000000000 Z
+- name: net.bytebuddy:byte-buddy
+  description: Byte Buddy is a Java library for creating Java classes at run time
+  version: 1.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/opensearch/build.gradle
+  detection_source: data-prepper-plugins/opensearch/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-03-27 18:49:01.000000000 Z
+- name: net.bytebuddy:byte-buddy-agent
+  description: The Byte Buddy agent offers convenience for attaching an agent to the
+    local or a remote VM
+  version: 1.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/opensearch/build.gradle
+  detection_source: data-prepper-plugins/opensearch/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-03-27 18:49:01.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: 3.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 23:51:03.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-01-12 22:08:52.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-27 22:48:25.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-27 22:48:25.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.24.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/http-source/build.gradle
+  detection_source: data-prepper-plugins/http-source/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2023-02-09 19:49:11.000000000 Z
+- name: org.bouncycastle:bcpkix-jdk15on
+  description: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP,
+    and certificate generation
+  version: '1.70'
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/common/build.gradle
+  detection_source: data-prepper-plugins/common/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-06-08 22:06:46.000000000 Z
+- name: org.hibernate.validator:hibernate-validator
+  description: Hibernate's Bean Validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2023-03-01 16:06:52.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  version: 1.7.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/mapdb-processor-state/build.gradle
+  detection_source: data-prepper-plugins/mapdb-processor-state/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 18:32:42.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-common
+  description: Kotlin Common Standard Library
+  version: 1.7.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/mapdb-processor-state/build.gradle
+  detection_source: data-prepper-plugins/mapdb-processor-state/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 18:32:42.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/dynamodb-source-coordination-store/build.gradle
+  detection_source: data-prepper-plugins/dynamodb-source-coordination-store/build.gradle
+  last_updated_by: Taylor Gray
+  last_updated_on: 2023-03-31 17:45:43.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/dynamodb-source-coordination-store/build.gradle
+  detection_source: data-prepper-plugins/dynamodb-source-coordination-store/build.gradle
+  last_updated_by: Taylor Gray
+  last_updated_on: 2023-03-31 17:45:43.000000000 Z
+- name: org.mapdb:mapdb
+  description: MapDB provides concurrent Maps, Sets and Queues backed by disk storage
+    or off-heap memory
+  version: 3.0.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/mapdb-processor-state/build.gradle
+  detection_source: data-prepper-plugins/mapdb-processor-state/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 18:32:42.000000000 Z
+- name: org.reflections:reflections
+  description: Reflections - a Java runtime metadata analysis
+  version: 0.10.2
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2023-03-27 17:30:28.000000000 Z
+- name: org.skyscreamer:jsonassert
+  description: A library to develop RESTful but flexible APIs
+  version: 1.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-api/build.gradle
+  detection_source: data-prepper-api/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 23:51:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/analytics-service/build.gradle
+  detection_source: examples/trace-analytics-sample-app/sample-app/analytics-service/build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-08-25 15:03:44.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/analytics-service/build.gradle
+  detection_source: examples/trace-analytics-sample-app/sample-app/analytics-service/build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-08-25 15:03:44.000000000 Z
+- name: software.amazon.awssdk:cloudwatch
+  description: The AWS Java SDK for Amazon CloudWatch module holds the client classes
+    that are used for communicating with Amazon CloudWatch Service
+  license: Apache-2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2022-11-10 15:50:03.000000000 Z
+- name: software.amazon.awssdk:http-client-spi
+  description: The Amazon Web Services SDK for Java provides Java APIs for building
+    software on AWS' cost-effective, scalable, and reliable infrastructure products
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/opensearch/build.gradle
+  detection_source: data-prepper-plugins/opensearch/build.gradle
+  last_updated_by: David Venable
+  last_updated_on: 2023-02-20 21:18:55.000000000 Z
+- name: software.amazon.awssdk:s3
+  description: The AWS Java SDK for Amazon S3 module holds the client classes that
+    are used for communicating with Amazon Simple Storage Service
+  license: Apache-2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-core/build.gradle
+  detection_source: data-prepper-core/build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2022-08-17 15:02:40.000000000 Z
+- name: software.amazon.awssdk:url-connection-client
+  description: The Amazon Web Services SDK for Java provides Java APIs for building
+    software on AWS' cost-effective, scalable, and reliable infrastructure products
+  license: Apache-2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/opensearch/build.gradle
+  detection_source: data-prepper-plugins/opensearch/build.gradle
+  last_updated_by: Christopher Manning
+  last_updated_on: 2023-04-05 14:28:32.000000000 Z
+- name: software.amazon.awssdk:utils
+  description: The Amazon Web Services SDK for Java provides Java APIs for building
+    software on AWS' cost-effective, scalable, and reliable infrastructure products
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/data-prepper-plugins/opensearch/build.gradle
+  detection_source: data-prepper-plugins/opensearch/build.gradle
+  last_updated_by: Asif Sohail Mohammed
+  last_updated_on: 2023-01-19 22:21:32.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2022.12.7
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-08 21:51:47.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.50.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: David Venable
+  last_updated_on: 2022-10-21 11:46:43.000000000 Z
+  vulnerabilities:
+  - name: gRPC Reachable Assertion issue
+    cve_id: CVE-2023-1428
+    cve_url: https://github.com/advisories/GHSA-6628-q6j9-w8vg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 1.53.0
+  - name: Connection confusion in gRPC
+    cve_id: CVE-2023-32731
+    cve_url: https://github.com/advisories/GHSA-cfgp-2977-2fmm
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.53.0
+  - name: gRPC connection termination issue
+    cve_id: CVE-2023-32732
+    cve_url: https://github.com/advisories/GHSA-9hxf-ppjv-w6rq
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 1.53.0
+- name: dash
+  description: A Python framework for building reactive web-apps
+  package_url: https://pypi.org/project/dash
+  version: 1.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20186/default_dd3b312e8cc6182284a1b62b29d8f5d203c32bda.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/requirements.txt
+  detection_source: examples/trace-analytics-sample-app/sample-app/requirements.txt
+  last_updated_by: qchea
+  last_updated_on: 2020-11-25 00:28:50.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 2.15.0
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+  vulnerabilities:
+  - name: Internationalized Domain Names in Applications (IDNA) vulnerable to denial
+      of service from specially crafted inputs to idna.encode
+    cve_id: CVE-2024-3651
+    cve_url: https://github.com/advisories/GHSA-jjg7-2v4v-x38h
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: '3.7'
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: backoff
+  description: Function decoration for backoff and retry
+  package_url: https://pypi.org/project/backoff
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19988/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 2.0.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: googleapis-common-protos
+  description: Common protobufs used in Google APIs
+  package_url: https://pypi.org/project/googleapis-common-protos
+  version: 1.53.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20036/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-09-23 22:59:49.000000000 Z
+- name: mysql-connector
+  description: MySQL driver written in Python
+  package_url: https://pypi.org/project/mysql-connector
+  version: 2.2.9
+  license: GPL-2.0-with-font-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20800/default_3585b2f9f07039da8bfcc35eab67d81325922568.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/examples/trace-analytics-sample-app/sample-app/requirements.txt
+  detection_source: examples/trace-analytics-sample-app/sample-app/requirements.txt
+  last_updated_by: Shivani Shukla
+  last_updated_on: 2023-02-22 03:16:58.000000000 Z
+- name: opentelemetry-api
+  description: OpenTelemetry Python API
+  package_url: https://pypi.org/project/opentelemetry-api
+  version: 1.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: wrapt
+  description: Module for decorators, wrappers and monkey patching
+  package_url: https://pypi.org/project/wrapt
+  version: 1.13.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19946/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/smoke-tests/otel-span-exporter/requirements.txt
+  detection_source: release/smoke-tests/otel-span-exporter/requirements.txt
+  last_updated_by: Steven Bayer
+  last_updated_on: 2021-12-20 17:35:12.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 10.17.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.54.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.54.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 26.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Eldius/data-prepper/blob/main/release/staging-resources-cdk/package-lock.json
+  detection_source: release/staging-resources-cdk/package.json
+  last_updated_by: David Venable
+  last_updated_on: 2022-02-25 19:01:11.000000000 Z
